@@ -1,54 +1,53 @@
 :root {
-    --space-cadet: #2F364Fff;
-    --copper-red: #C67758;
-    --violet-blue-crayola: #7A7ECDff;
-    --white: #FFFFFFff;
-    --violet-blue-crayola-2: #7A7ECDff;
+    --space-cadet: #2f364fff;
+    --copper-red: #c67758;
+    --violet-blue-crayola: #7a7ecdff;
+    --white: #ffffffff;
+    --violet-blue-crayola-2: #7a7ecdff;
 }
-
 * {
     box-sizing: border-box;
 }
 
-h1,h2,h3,h4, h5, p  {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-
 
 header {
     position: relative;
 }
 
-
-section {    
+section {
     padding: 120px 20px;
     position: relative;
 }
 
 .purple-background {
     background-color: var(--violet-blue-crayola-2);
-
 }
 
 section img {
     width: 100%;
 }
 
-
-
-header  h1{
-
+header h1 {
     font-size: 3rem;
 }
 
-header img {    
+header img {
     margin-top: 120px;
     margin-bottom: 80px;
     width: 70%;
@@ -64,19 +63,17 @@ nav {
     position: relative;
     padding: 20px 0;
     background-color: var(--white);
-
     z-index: 9;
     position: absolute;
     right: 0;
     top: 0;
 }
 
-
 ul {
     margin: 0;
     padding-right: 20px;
     list-style-type: none;
-    padding-left: 0;  
+    padding-left: 0;
 }
 
 nav li {
@@ -123,7 +120,7 @@ h2 {
 }
 
 .card {
-    background-color: #FFFFFFff;
+    background-color: #ffffffff;
     border-radius: 20px;
     padding: 35px 40px 45px 40px;
     background-color: #fff;
@@ -140,7 +137,8 @@ h2 {
     padding: 8px 30px;
     cursor: pointer;
     background-color: white;
-    transition: background-color .2s ease-in-out, color .2s ease-in-out, border-color .2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+      border-color 0.2s ease-in-out;
 }
 
 .card button:hover {
@@ -150,9 +148,9 @@ h2 {
 }
 
 .card.active {
-   border: 5px solid var(--violet-blue-crayola);
-   padding-top: 80px;
-   padding-bottom: 80px;
+    border: 5px solid var(--violet-blue-crayola);
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .card.active button {
@@ -161,11 +159,8 @@ h2 {
     color: white;
 }
 
-
-
-
 p {
-    color: #8A8A8A;
+    color: #8a8a8a;
 }
 
 h3 {
@@ -189,7 +184,7 @@ footer {
 }
 
 .special {
-    padding:0px;
+    padding: 0px;
 }
 
 .special h3 {
@@ -220,7 +215,8 @@ input {
     border: none;
     border-bottom: 2px solid var(--violet-blue-crayola);
     padding: 6px 10px;
-    margin-bottom: 40px;width: 100%;
+    margin-bottom: 40px;
+    width: 100%;
     font-size: 1.4rem;
     padding-left: 0;
 }
@@ -254,34 +250,36 @@ form .btn-form {
 }
 
 @keyframes float {
-    0%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(-20px);
-    }
-    100%{
-        transform: translateY(0px);
-}
-}
+  0% {
+      transform: translateY(0px);
+  }
 
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+      transform: translateY(0px);
+  }
+}
 
 .content-end {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .transparent-background {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 nav.transparent-background li a {
     color: white;
 }
+
 .text-right {
-    text-align: right;
+   text-align: right;
 }
 
-.max-70{ 
+.max-70 {
     max-width: 70%;
 }
 
@@ -305,7 +303,6 @@ nav.transparent-background li a {
 .mt-8 {
     margin-top: 80px;
 }
-
 
 footer ul li {
     display: inline-block;
