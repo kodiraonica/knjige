@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+.list {
+  width: 15%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 150px;
+  height: auto;
+  margin-left: 2rem;
+}

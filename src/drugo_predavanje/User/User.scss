@@ -1,0 +1,15 @@
+.User {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 2rem;
+  }
+
+  .avatar {
+    width: 150px;
+    height: auto;
+    margin-left: 2rem;
+  }
+}

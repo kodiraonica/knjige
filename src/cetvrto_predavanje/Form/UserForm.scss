@@ -1,0 +1,20 @@
+.UserForm {
+  & form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+  }
+  & label {
+    font-weight: bold;
+    align-self: flex-start;
+    padding: 0.5rem;
+    padding-left: 2rem;
+  }
+  & button {
+    margin-top: 0.5rem;
+    width: 30%;
+    align-self: center;
+  }
+  
+}
