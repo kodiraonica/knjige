@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./FormControl.scss";
+import "peto_predavanje/Form/FormControl/FormControl.scss";
 
 export default function FormControl(props) {
   const [type, setType] = useState(props.type);

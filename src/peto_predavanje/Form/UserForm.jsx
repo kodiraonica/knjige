@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Button from "../../shared/Button/Button";
-import "./UserForm.scss";
+import Button from "shared/Button/Button";
+import "peto_predavanje/Form/UserForm.scss";
 import {
   defaultErrors,
   fieldErrors,

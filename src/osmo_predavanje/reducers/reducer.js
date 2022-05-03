@@ -1,5 +1,5 @@
-import { ADD_USER, INPUT_CHANGE } from "../actions/form";
-import { FORM_VALIDATION } from "../actions/validate";
+import { ADD_USER, INPUT_CHANGE } from "osmo_predavanje/actions/form";
+import { FORM_VALIDATION } from "osmo_predavanje/actions/validate";
 
 const formControlDefaults = { value: "", valid: null, error: "" };
 export const initialState = {

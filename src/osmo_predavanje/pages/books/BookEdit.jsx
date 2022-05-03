@@ -1,6 +1,6 @@
-import { useStore } from "../store/Store";
-import Form from "../Form/Form";
-import { bookFields } from "../Form/form.config";
+import { useStore } from "osmo_predavanje/store/Store";
+import Form from "osmo_predavanje/Form/Form";
+import { bookFields } from "osmo_predavanje/Form/Form.config";
 
 const BookEdit = (props) => {
   const [globalState, dispatch] = useStore();

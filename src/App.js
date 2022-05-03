@@ -7,16 +7,12 @@ import SestoPredavanje from "./sesto_predavanje/SestoPredavanje";
 import SedmoPredavanje from "./sedmo_predavanje/SedmoPredavanje";
 import OsmoPredavanje from "./osmo_predavanje/OsmoPredavanje";
 import "./App.css";
+import FinalApp from "final_app/FinalApp";
 
 function App() {
   return (
     <div className="App">
-      <nav className="navbar">
-        <h1>Kodiraonica - React</h1>
-      </nav>
-      <section className="wrapper">
-        <OsmoPredavanje />
-      </section>
+      <FinalApp />
     </div>
   );
 }

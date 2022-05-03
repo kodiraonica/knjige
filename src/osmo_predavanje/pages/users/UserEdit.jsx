@@ -1,7 +1,6 @@
-import "./User.scss";
-import { useStore } from "../store/Store";
-import Form from "../Form/Form";
-import { userFields } from "../Form/form.config";
+import { useStore } from "osmo_predavanje/store/Store";
+import Form from "osmo_predavanje/Form/Form";
+import { userFields } from "osmo_predavanje/Form/Form.config";
 
 const UserEdit = (props) => {
   const [globalState, dispatch] = useStore();

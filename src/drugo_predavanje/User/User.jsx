@@ -1,7 +1,7 @@
 import { React } from "react";
-import UserTasks from "./UserTasks";
-import avatar from "../../assets/userprofile.png";
-import "./User.scss";
+import UserTasks from "drugo_predavanje/User/UserTasks";
+import avatar from "assets/userprofile.png";
+import "drugo_predavanje/User/User.scss";
 
 export default function User(props) {
   return (

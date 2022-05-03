@@ -1,5 +1,5 @@
 import { React } from "react";
-import UserTasks from "./UserTasks";
+import UserTasks from "prvo_predavanje/User/UserTasks";
 
 function Primjer(props) {
   return (

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./FormControl.scss";
-import { useStore } from "../../store/Store";
-import { handleUserFormControl } from "../../actions/addUser";
+import "sesto_predavanje/Form/FormControl/FormControl.scss";
+import { useStore } from "sesto_predavanje/store/Store";
+import { handleUserFormControl } from "sesto_predavanje/actions/addUser";
 
 export default function FormControl(props) {
   const [, dispatch] = useStore();

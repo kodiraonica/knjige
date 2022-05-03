@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../shared/Button/Button";
+import Button from "shared/Button/Button";
 
 export default function CurrentUser() {
   const [user, setUser] = React.useState("");

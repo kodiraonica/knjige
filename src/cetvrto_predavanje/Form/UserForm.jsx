@@ -1,5 +1,5 @@
 import React from "react";
-import "./UserForm.scss";
+import "cetvrto_predavanje/Form/UserForm.scss";
 
 export default function Form() {
   const [name, setName] = React.useState("");

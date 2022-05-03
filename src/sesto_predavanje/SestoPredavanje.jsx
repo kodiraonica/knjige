@@ -1,6 +1,6 @@
-import UserForm from "./Form/UserForm";
-import { StoreProvider } from "./store/Store";
-import { initialState, stateReducer } from "./reducers/reducer";
+import UserForm from "sesto_predavanje/Form/UserForm";
+import { StoreProvider } from "sesto_predavanje/store/Store";
+import { initialState, stateReducer } from "sesto_predavanje/reducers/reducer";
 
 export default function SestoPredavanje() {
   return (

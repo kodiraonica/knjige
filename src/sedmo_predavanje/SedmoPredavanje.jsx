@@ -1,6 +1,6 @@
-import Form from "./Form/Form";
-import { StoreProvider } from "./store/Store";
-import { initialState, stateReducer } from "./reducers/reducer";
+import Form from "sedmo_predavanje/Form/Form";
+import { StoreProvider } from "sedmo_predavanje/store/Store";
+import { initialState, stateReducer } from "sedmo_predavanje/reducers/reducer";
 
 export default function SedmoPredavanje() {
   const userFields = [

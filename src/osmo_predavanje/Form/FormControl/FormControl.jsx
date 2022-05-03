@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import "./FormControl.scss";
-import { useStore } from "../../store/Store";
-import { handleFormControl } from "../../actions/form";
-import { validateFormControl } from "../../actions/validate";
+import "osmo_predavanje/Form/FormControl/FormControl.scss";
+import { useStore } from "osmo_predavanje/store/Store";
+import { handleFormControl } from "osmo_predavanje/actions/form";
+import { validateFormControl } from "osmo_predavanje/actions/validate";
 
 export default function FormControl(props) {
   const [globalState, dispatch] = useStore();

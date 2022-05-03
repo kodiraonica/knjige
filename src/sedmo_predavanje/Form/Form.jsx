@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Button from "../../shared/Button/Button";
-import "./Form.scss";
-import FormControl from "./FormControl/FormControl";
-import { handleFormSubmit } from "../actions/form";
-import { useStore } from "../store/Store";
+import Button from "shared/Button/Button";
+import "sedmo_predavanje/Form/Form.scss";
+import FormControl from "sedmo_predavanje/Form/FormControl/FormControl";
+import { handleFormSubmit } from "sedmo_predavanje/actions/form";
+import { useStore } from "sedmo_predavanje/store/Store";
 
 export default function Form(props) {
   const formName = props.formName;

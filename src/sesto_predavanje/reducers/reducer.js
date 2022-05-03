@@ -1,4 +1,4 @@
-import { ADD_USER, INPUT_CHANGE } from "../actions/addUser";
+import { ADD_USER, INPUT_CHANGE } from "sesto_predavanje/actions/addUser";
 
 export const initialState = {
   users: [],

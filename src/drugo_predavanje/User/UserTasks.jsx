@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../../shared/Button/Button";
-import "./UserTasks.scss";
+import Button from "shared/Button/Button";
+import "drugo_predavanje/User/UserTasks.scss";
 
 export default function UserTasks() {
   var totalColor = "#2978a0";

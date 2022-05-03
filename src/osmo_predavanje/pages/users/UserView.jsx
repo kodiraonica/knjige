@@ -1,6 +1,5 @@
-import "../../assets/scss/style.scss";
-import "./User.scss";
-import { useStore } from "../store/Store";
+import "osmo_predavanje/assets/scss/style.scss";
+import { useStore } from "osmo_predavanje/store/Store";
 import { Link } from "react-router-dom";
 
 const UserView = () => {

@@ -1,8 +1,7 @@
-import "./User.scss";
-import Form from "./Form/Form";
-import { userFields } from "../../Form/form.config";
-import { StoreProvider } from "./store/Store";
-import { initialState, stateReducer } from "./reducers/reducer";
+import Form from "osmo_predavanje/Form/Form";
+import { userFields } from "osmo_predavanje/Form/Form.config";
+import { StoreProvider } from "osmo_predavanje/store/Store";
+import { initialState, stateReducer } from "osmo_predavanje/reducers/reducer";
 
 export default function UserAdd() {
   return (
