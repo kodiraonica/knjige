@@ -74,6 +74,7 @@ export default function FormControl(props) {
         value={value}
         style={{ border: setBorderStyles() }}
         onChange={handleChange}
+        ref={inputRef}
       />
     );
   };
